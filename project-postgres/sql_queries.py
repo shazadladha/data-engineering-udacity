@@ -17,6 +17,7 @@ songplay_table_create = ("""
         song_id VARCHAR,
         artist_id VARCHAR,
         session_id INT,
+        location VARCHAR,
         user_agent VARCHAR
     );
 """)
